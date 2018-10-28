@@ -1,0 +1,119 @@
+@font-face {
+  font-family: potra;
+  src: url(css/fonts/Potra.ttf);
+}
+
+@font-face {
+  font-family: articulate;
+  src: url(css/fonts/Articulate.ttf);
+}
+body {
+  background-image: url(assets/images/flowers.jpg);
+  background-repeat: repeat;
+  font-family: articulate;
+  border: solid pink;
+  color: black;
+  padding: 10px 0px;
+  font-weight: bold;
+
+}
+
+header {
+  text-align: center;
+  font-family: potra;
+  font-size: 40px;
+}
+
+
+
+nav {
+  font-family: potra;
+  text-align: center;
+}
+
+article {
+  text-align: center;
+  font-family: articulate;
+  font-size: 25px;
+
+}
+
+article h1 {
+  text-align: center;
+  font-size: 45px;
+  font-family: potra;
+}
+
+article p {
+  text-align: left;
+  padding-left: 150px;
+  padding-right: 100px;
+}
+
+article a {
+  padding: 40px;
+  font-size: 50px;
+  margin: 10px;
+}
+
+.p {
+  padding-right: 700px;
+}
+
+footer {
+  font-family: articulate;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 150px;
+}
+
+img {
+  position: absolute;
+  right: 250px;
+  top: 360px;
+  width: 400px;
+  height: 300px;
+}
+
+.button {
+  background-color: powderblue;
+  border: solid lightblue ;
+  color: plum;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+a:link {
+  display: inline-block;
+  background-color: none;
+  color: plum;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: orange;
+}
+
+.column {
+  float: none;
+  padding: 0px 200px;
+}
+
+.center{
+  text-align: center;
+}
+
+.indent {
+    text-indent: 50px;
+}
+
+.box {
+  background-color: darksalmon;
+}

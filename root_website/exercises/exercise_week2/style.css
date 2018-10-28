@@ -1,0 +1,83 @@
+/* === CSS RESET === */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: #bbb;
+	font-family: cursive, fantasy, "Comic Sans", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+nav, header, article {
+	margin-bottom: 30px;
+/*	border: solid 1px red;*/
+}
+
+
+nav {
+	background-color: #666;
+/*	text-align: right;*/
+}
+
+a:link {
+	display:inline-block;
+	background-color: #666;
+	color:#aaa;
+	text-decoration: none;
+	padding:5px 20px;
+	font-size:23px;
+	text-transform: capitalize;
+}
+
+a:visited {
+	color:cornsilk;
+}
+
+a:hover {
+	color:#333;
+	background-color: #eee;
+}
+
+
+header {
+	padding: 0 20px;
+}
+
+header h1 {
+	font-size: 52px;
+	text-transform: uppercase;
+}
+
+header h2 {
+	font-family:  Georgia, "serif";
+	font-style: italic;
+	color:#797;
+	text-transform: capitalize;
+}
+
+
+article {
+	padding: 0 20px;
+}
+
+article h1 {
+	font-size: 32px;
+	text-transform: capitalize;
+  color: #393;
+}
+
+article p {
+	font-size: 18px;
+	margin-bottom: 20px;
+	line-height: 24px;
+
+}
+
+footer {
+	padding: 0 20px;
+	font-style: italic;
+	font-family:  Georgia, "serif";
+}

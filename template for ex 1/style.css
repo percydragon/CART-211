@@ -1,0 +1,42 @@
+/* === CSS RESET ===*/
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	background-color: beige;
+	font-family: Gotham, Helvetica, Arial, "sans-serif";
+}
+
+header {
+	background-color: deepskyblue;
+	padding:20px;
+	margin-bottom: 20px;
+}
+/*specificity means only the h1 in the header is affected*/
+header h1 {
+	font-size:58px;
+}
+
+nav {
+	background-color:#333;
+	padding:20px;
+	margin-bottom: 20px;
+}
+
+article {
+	padding:20px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+footer {
+	background-color:#333;
+	padding:20px;
+}

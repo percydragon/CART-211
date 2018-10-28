@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Text+Me+One');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+/* === CSS RESET === */
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+header {
+  font-family: 'Text Me One', sans-serif;
+  font-size: 200%;
+  text-align: center;
+  background: indianred;
+  color: purple;
+
+}
+#s1 {
+  background: url(/images/fairy_light.jpg) no-repeat fixed center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#s1 hgroup {
+  background: mistyrose;
+  opacity: 1;
+  width:37%;
+  line-height: 1.8;
+	padding:20px;
+	text-align: center;
+	position: absolute;
+	top:50px;
+	right:60px;
+  border-radius: 10px;
+}
+
+#s1 h2 {
+  font-family: 'Amatic SC', cursive;
+}
+
+#s1 h1 {
+  font-family: 'Text Me One', sans-serif;
+  font-size: 200%;
+}
+
+#s2 {
+	width:100%;
+  background: url(/images/clouds.jpg);
+  background-size: cover;
+	min-height:60%;
+	height: auto;
+	padding: 50px;
+}
+
+#moodboard {
+  width: 100%;
+  height: 100%;
+  background: url(/images/trees.jpg);
+  background-size: cover;
+}
+
+#research {
+  width: 100%;
+  height: 100%;
+  background: url(/images/zigzag.jpg);
+
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.column img {
+    margin-top: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.row: after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: lightsteelblue;
+  border: dotted thick darkgreen;
+  border-radius: 20px;
+  margin: 40px;
+  margin-right: 510px;
+  margin-left: 510px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 250%;
+  color: seashell;
+  text-align: center;
+  text-decoration: none;
+  height: 50%;
+
+}
+
+.img {
+  border-radius: 50%;
+  height: 26%;
+  width:26%;
+  margin-left: 150px;
+  margin-top: 200px;
+  background: mistyrose;
+  padding: 20px;
+}
+
+.column2 {
+  float: none;
+  padding: 20px 200px;
+}
+
+.indent {
+    text-indent: 50px;
+    margin: 20px;
+    padding:10px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+.indent h1{
+  text-align: center;
+  font-family: 'Text Me One', sans-serif;
+  font-size: 40px;
+}
+
+.negative-indent {
+    margin-left: 70px;
+    text-indent: -50px;
+    padding:10px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.negative-indent h1 {
+  text-align: center;
+  font-family: 'Text Me One', sans-serif;
+  font-size: 40px;
+}
+
+
+.box {
+  background-color: lightcoral;
+  border-radius: 5px;
+
+}
+
+.topess {
+  margin:20px;
+  padding:10px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+
+a:link {
+  display: flex;
+  background-color: none;
+  color: plum;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: palevioletred;

@@ -1,0 +1,85 @@
+/* === CSS RESET === */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: #eee;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+nav, header, article {
+	margin-bottom: 20px;
+/*	border: solid 1px red;*/
+}
+
+/* === NAV INFO HERE === */
+nav {
+	background-color: #333;
+/*	text-align: right;*/
+}
+
+a:link {
+	display:inline-block;
+	background-color: #333;
+	color:#eee;
+	text-decoration: none;
+	padding:10px 20px;
+	font-size:18px;
+	text-transform: capitalize;
+}
+
+a:visited {
+	color:cornsilk;
+}
+
+a:hover {
+	color:#333;
+	background-color: #eee;
+}
+
+/* === HEADER INFO HERE === */
+header {
+	padding: 0 20px;
+}
+
+header h1 {
+	font-size: 52px;
+	text-transform: uppercase;
+}
+
+header h2 {
+	font-family:  Georgia, "serif";
+	font-style: italic;
+	color:#999;
+	text-transform: capitalize;
+}
+
+/* === ARTICLE INFO HERE === */
+article {
+	padding: 0 20px;
+}
+
+article h1 {
+	font-size: 32px;
+	text-transform: capitalize;
+}
+
+article p {
+	font-size: 18px;
+	margin-bottom: 20px;
+	line-height: 24px;
+/*	text-align: justify;*/
+}
+
+footer {
+	padding: 0 20px;
+	font-style: italic;
+	font-family:  Georgia, "serif";
+}
+
+
+
